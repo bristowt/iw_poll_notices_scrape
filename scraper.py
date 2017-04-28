@@ -2,7 +2,7 @@ import scraperwiki
 import urllib2, lxml.etree
 
 
-url='http://www.iwight.com/azservices/documents/1174-Notice%20of%20Poll%20-%20IOWC%20May%202013.pdf'
+url='https://www.south-norfolk.gov.uk/sites/default/files/Notice%20of%20Poll.pdf'
 #Archive copy: https://dl.dropboxusercontent.com/u/1156404/1174-Notice%20of%20Poll%20-%20IOWC%20May%202013.pdf
 
 pdfdata = urllib2.urlopen(url).read()
